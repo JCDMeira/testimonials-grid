@@ -4,6 +4,7 @@ import { GlobalStye, Conteiner, Content } from './global';
 import photo1 from './assets/images/image-daniel.jpg';
 import photo2 from './assets/images/image-jonathan.jpg';
 import photo3 from './assets/images/image-jeanette.jpg';
+import photo4 from './assets/images/image-patrick.jpg';
 
 function App() {
   return (
@@ -61,6 +62,25 @@ function App() {
           >
             Thank you for the wonderful experience! I now have a job I really
             enjoy, and make a good living while doing something I love.
+          </Card>
+
+          <Card
+            background="#19212E"
+            height="38.4"
+            photo={photo4}
+            name={['Patrick Abrams', '#ECF2F8']}
+            verified={true}
+            tittle={[
+              'Awesome teaching support from TAs who did the bootcamp themselves. Getting guidancefrom them and learning from their experiences was easy.',
+              '#FFFFFF',
+            ]}
+          >
+            The staff seem genuinely concerned about my progress which I find
+            really refreshing. The program gave me the confidence necessary to
+            be able to go out in the world and present myself as a capable
+            junior developer. The standard is above the rest. You will get the
+            personal attention you need from an incredible community of smart
+            and amazing people.
           </Card>
         </Content>
       </Conteiner>
