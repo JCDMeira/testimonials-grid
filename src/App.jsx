@@ -3,6 +3,7 @@ import { Card } from './components/Card';
 import { GlobalStye, Conteiner, Content } from './global';
 import photo1 from './assets/images/image-daniel.jpg';
 import photo2 from './assets/images/image-jonathan.jpg';
+import photo3 from './assets/images/image-jeanette.jpg';
 
 function App() {
   return (
@@ -45,6 +46,21 @@ function App() {
             I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineerfor a big company. This was one of the best
             investments I’ve made in myself.
+          </Card>
+
+          <Card
+            background="#fff"
+            height="22.3"
+            photo={photo3}
+            name={['Jeanette Harmon', '#515A6B']}
+            verified={true}
+            tittle={[
+              'An overall wonderful and rewarding experience',
+              '#19212E',
+            ]}
+          >
+            Thank you for the wonderful experience! I now have a job I really
+            enjoy, and make a good living while doing something I love.
           </Card>
         </Content>
       </Conteiner>
