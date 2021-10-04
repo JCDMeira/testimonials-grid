@@ -5,6 +5,7 @@ import photo1 from './assets/images/image-daniel.jpg';
 import photo2 from './assets/images/image-jonathan.jpg';
 import photo3 from './assets/images/image-jeanette.jpg';
 import photo4 from './assets/images/image-patrick.jpg';
+import photo5 from './assets/images/image-kira.jpg';
 
 function App() {
   return (
@@ -71,7 +72,7 @@ function App() {
             name={['Patrick Abrams', '#ECF2F8']}
             verified={true}
             tittle={[
-              'Awesome teaching support from TAs who did the bootcamp themselves. Getting guidancefrom them and learning from their experiences was easy.',
+              'Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.',
               '#FFFFFF',
             ]}
           >
@@ -81,6 +82,31 @@ function App() {
             junior developer. The standard is above the rest. You will get the
             personal attention you need from an incredible community of smart
             and amazing people.
+          </Card>
+
+          <Card
+            background="#fff"
+            height="43.8"
+            photo={photo5}
+            name={['Kira Whittle', '#515A6B']}
+            verified={true}
+            tittle={[
+              'Such a life-changing experience. Highly recommended!',
+              '#19212E',
+            ]}
+          >
+            Before joining the bootcamp, I’ve never written a line of code. I
+            needed some structure from professionals who can help me learn
+            programming step by step. I was encouraged to enroll by a former
+            student of theirs who can only say wonderful things about the
+            program. The entire curriculum and staff did not disappoint. They
+            were very hands-on and I never had to wait long for assistance. The
+            agile team project, in particular, was outstanding. It took my
+            learning to the next level in a way that no tutorial could ever
+            have. In fact, I’ve often referred to it during interviews as an
+            example of my developent experience. It certainly helped me land a
+            job as a full-stack developer after receiving multiple offers. 100%
+            recommend!
           </Card>
         </Content>
       </Conteiner>
