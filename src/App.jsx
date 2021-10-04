@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from './components/Card';
 import { GlobalStye, Conteiner, Content } from './global';
 import photo1 from './assets/images/image-daniel.jpg';
+import photo2 from './assets/images/image-jonathan.jpg';
 
 function App() {
   return (
@@ -28,6 +29,22 @@ function App() {
             weeks was the best - and most grueling - time of my life. Since
             completing the course, I’ve successfully switched careers, working
             as a Software Engineer at a VR startup.
+          </Card>
+
+          <Card
+            background="#48556A"
+            height="24"
+            photo={photo2}
+            name={['Jonathan Walters', '#ECF2F8']}
+            verified={true}
+            tittle={[
+              'The team was very supportive and kept me motivated',
+              '#FFFFFF',
+            ]}
+          >
+            I started as a total newbie with virtually no coding skills. I now
+            work as a mobile engineerfor a big company. This was one of the best
+            investments I’ve made in myself.
           </Card>
         </Content>
       </Conteiner>
