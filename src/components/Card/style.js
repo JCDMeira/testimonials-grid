@@ -8,6 +8,11 @@ export const Fieldcard = styled.div`
   filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.25));
   margin-bottom: 2.4rem;
   overflow: auto;
+  grid-area: ${(props) => props.cardTag};
+
+  @media (min-width: 1200px) {
+    height: auto;
+  }
 
   div {
     display: flex;

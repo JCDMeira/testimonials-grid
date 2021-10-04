@@ -12,6 +12,7 @@ function Card({
   verified,
   tittle,
   children,
+  cardTag,
 }) {
   return (
     <CardComponents.Fieldcard
@@ -19,6 +20,7 @@ function Card({
       height={height}
       color={name[1]}
       colorTittle={tittle[1]}
+      cardTag={cardTag}
     >
       {first ? <CardComponents.quota src={quotaImg} alt="" /> : ''}
       <div>
@@ -53,4 +55,5 @@ Card.propTypes = {
   verified: P.bool.isRequired,
   tittle: P.array.isRequired,
   children: P.string.isRequired,
+  cardTag: P.string.isRequired,
 };

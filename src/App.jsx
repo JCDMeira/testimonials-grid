@@ -14,6 +14,7 @@ function App() {
       <Conteiner>
         <Content>
           <Card
+            cardTag="card1"
             background="#7541C8"
             height="44.4"
             first={true}
@@ -35,6 +36,7 @@ function App() {
           </Card>
 
           <Card
+            cardTag="card2"
             background="#48556A"
             height="24"
             photo={photo2}
@@ -51,6 +53,7 @@ function App() {
           </Card>
 
           <Card
+            cardTag="card3"
             background="#fff"
             height="22.3"
             photo={photo3}
@@ -66,6 +69,7 @@ function App() {
           </Card>
 
           <Card
+            cardTag="card4"
             background="#19212E"
             height="38.4"
             photo={photo4}
@@ -85,6 +89,7 @@ function App() {
           </Card>
 
           <Card
+            cardTag="card5"
             background="#fff"
             height="43.8"
             photo={photo5}
